@@ -1,5 +1,5 @@
-body { font-family: $font; font-size:$font-size; background:$dark; }
+body { font-family: $font; font-size:$font-size; background:yellow; }
 h1, h2, h3, h4, h5 h6 { font-family: $headline; }
-p { padding-bottom: 1em; }
+p { padding-bottom: 1em;  }
 svg * { fill:currentColor; }
 [v-cloak] { display: none !important; }

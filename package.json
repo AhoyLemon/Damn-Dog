@@ -1,0 +1,25 @@
+{
+  "name": "damn-dog",
+  "version": "1.0.0",
+  "description": "A wikiHow Picture Guessing Game",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhoyLemon/Damn-Dog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhoyLemon/Damn-Dog/issues"
+  },
+  "homepage": "https://damn.dog",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "browser-sync": "~2.24.4",
+    "gulp-sass": "~4.0.1",
+    "gulp-wait": "~0.0.2"
+  }
+}

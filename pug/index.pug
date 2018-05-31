@@ -17,6 +17,7 @@ html(lang="en")
       
       main
         // PAGE CONTENT
+
         section.image-holder(v-cloak)
           .child
             h1(v-if="!current.correct") What is the title of this wikiHow article?
@@ -41,3 +42,5 @@ html(lang="en")
       
     include partials/_javascripts.pug
     include partials/_schema.pug
+    script#__bs_script__.
+      //<![CDATA[document.write("<script async src='http://HOST:3002/browser-sync/browser-sync-client.js?v=2.24.4'><\\/script>".replace("HOST", location.hostname));//]]>
