@@ -18,7 +18,7 @@
   "homepage": "https://damn.dog",
   "devDependencies": {
     "gulp": "~3.9.1",
-    "browser-sync": "~2.24.4",
+    "gulp-livereload": "~3.8.1",
     "gulp-sass": "~4.0.1",
     "gulp-wait": "~0.0.2"
   }
